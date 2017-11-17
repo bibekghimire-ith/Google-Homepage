@@ -1,0 +1,113 @@
+html, body{
+	margin:0;
+	padding:0;
+	color:#666;
+	text-decoration:none;
+	font-family:arial, sans-serif;
+}
+a:hover{text-decoration:underline;}
+
+/* Navigation */
+
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+.navigation{
+	margin:18px 18px 0 0;
+	float:right;
+	text-decoration:none;
+	padding:9px 8px;
+	font-size:13px;
+	color:#666;
+}
+
+#apps{
+	margin-top:22px;
+	
+	float:right;
+}
+
+#signbtn{
+	width:84px;
+	height:30px;
+	float:right;
+	background-color:#198cff;
+	color:#fff;
+	padding:8px 14px;
+	font-size:13px;
+	text-shadow:1px;
+	border:none;
+	margin:20px 20px 0 20px;
+}
+
+/* Main */
+main{
+	text-align:center;
+	top:130px;
+	position:relative;
+}
+.srchbtn{
+	margin:8px 2px;
+	padding:10px 15px;
+	background-color:#f2f2f2;
+	text-decoration:none;
+	border:1px solid #f2f2f2;
+	font-size:13px;
+	font-weight:bold;
+	color:#666;
+}
+.srchbtn:hover{
+	border:1px solid #c6c6c6;
+	color:#000;
+}
+#srchbar{
+	margin:5px;
+	padding:3px 0 3px 15px;
+	width:580px;
+	height:45px;
+	border-radius:1px;
+	border:1px solid #e8e8e8;
+	background: url("images/googlemic.png") no-repeat;
+	background-position:right 15px center;
+	background-size:15px;
+	box-shadow:0 2px 2px #cbcbcb;
+}
+#logo{
+	clear:right;
+	padding:12px 15px;
+}
+
+
+/* Footer Section */
+footer{
+	position:fixed;  /*position:sticjy; */
+	bottom:0;
+	width:100%;
+	height:40px;
+	border-top:1px solid #e2e2e2;
+	background:#f2f2f2;
+	font-size:13px;
+}
+footer ul{
+	list-style-type:none;
+	margin:12px;
+	padding:0 0 0 8px;
+}
+footer li{
+	display:inline;
+	padding:12px;
+}
+footer a{
+	text-decoration:none;
+	color:#666;
+}
+
+#left{
+	float:left;
+}
+#right{
+	float:right;
+}
